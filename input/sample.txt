@@ -1,0 +1,149 @@
+
+En | 中文 | 日本語 | Br
+最新技術を追い求めるデベロッパのための情報コミュニティ
+ ログイン会員登録
+
+
+モバイル JavaScript クラウドコンピューティング すべてのトピック デベロップメント 設計/アーキテクチャ プロセス/プラクティス 運用/インフラ エンタープライズ・アーキテクチャ
+印刷
+ニュースを投稿
+News
+Team Explorer Everywhere Update 1は、パブリックワークスペースをサポートする
+作者 Anand Narayanaswamy , 翻訳者 尾崎 義尚 投稿日 2012年12月29日
+セクション デベロップメント トピック Team Foundation Server , Visual Studio , Eclipse , .NET , Microsoft , オープンソース , Team_Foundation_Service
+共有	 | Share on facebook Share on digg Share on dzone Share on twitter Share on reddit Share on delicious Share on email
+原文(投稿日：2012/12/24)へのリンク
+
+
+Microsoftは先日、簡体字中国語言語パックとunixなどの他のオペレーティングシステム上の複数のユーザーで同じワークスペースを利用可能なパブリックワークスペースのサポートを含むTeam Explorer Everywhere update 1を発表した。update 1により開発者は、単一のパブリックワークスペースから編集と、チェックインが可能になる。
+
+チームエクスプローラは、ブランチとマージのサポートが含まれており、Microsoftはベースなしマージのサポートを追加した。最近のアップデートで開発者はより簡単にシェルフへのリンクのコピーとペーストが可能になり、コードレビューのためにチームにシェルフセットの参照を送りたいときに便利になった。これはまた異なる電子メールクライアントやツールを使った複数のプラットフォームでシームレスに動作する。
+
+InfoQはTeam Explorer Everywhere update 1のリリースに関するいくつかの疑問をクリアにするためにMicrosoftの公式スポークスマンにコンタクトを取った。
+
+InfoQ: 私たちはTeam Explorer Everywhere Update 1が、Eclipseのプラグインだと理解していますが、Eclipseのインストールは必要ですか？
+
+その通りです。このプラグインは、Eclipseのためであり、これはEclipseから使って下さい。簡単に言えば、Team Explorer Everywhereはクロスプラットフォームクライアントで、開発者がWindows上のVisual Studio以外のプラットフォームでも、Team Foundation ServerやTeam Foundation Serviceを使うことができるようにします。
+混乱を生み出しているのは、Team Foundation Server (TFS)とTeam Foundation Service (TFService)が現在、Visual Studio Team Foundation Server / Serviceと呼ばれており、"Visual Studio"先頭に着いていることにあります。
+
+現時点でこれに光を当てるために、言及する価値のある関連アイテム、git-TFは、Brian氏が数ヶ月前に書いたようにTFSとGitリポジトリ間の変更の共有を容易にするクロスプラットフォームのコマンドラインツールです。
+
+最後にMicrosoftがやろうとしているのは、開発者が、より効率的に、彼らが望むそして好むツールを使うことができ、彼らの望むように動作するように統合されていることです。そのためEclipseを使ってJavaの開発をしたい人は、彼らのコードリポジトリとしてGitを使って、それらのすべてがTFSで管理されるようにすることができます。
+
+InfoQ: 私たちは、Team Explorer Everywhere Update 1は、Visual Studio Team Foundation Server 2012のためだと理解しました。この更新をインストールするためにVisual Studio 2012は必要ですか？
+
+これは2つの理由で少し混乱を招く恐れがあります。クリアにして行きましょう。 I can see how this would be a bit confusing as well, for a couple reasons - let me try to clarify. Visual Studio 2012とVisual Studio Team Foundation Server 2012は2つの別々の製品で、それぞれに – Update 1と名付けられた - 更新が、先月ありました。
+Visual Studio Team Foundation Server 2012の利用と(サーバー上で実行される)その更新には、(開発者のマシンでローカル実行された)Visual Studio 2012のインストールは必要ありません。
+
+だたこれらは非常によく連携するように設計されています。 もっと簡単に言えば、チームはVSを使わなくても、(Update 1を含む)TFSを使って非常に高い生産性を実現できる - 上のシナリオでは、Team Explorer EverywhereとEclipseを使っている - しかし、2つは一緒に動作するように構築されています。
+
+
+
+
+
+関連コンテンツ
+
+TFSはどのようにして3週間のリリースサイクルを受け入れたか
+Visual Studio 2012のコードレビュー（比較、注釈、コメントとステータス更新）
+Visual Studio 2012における.NET Compact Framework 3.9のサポート
+Visual Studio Team Foundation Server 2012向けTFS Power Tools
+Visual Studio 11は"Visual Studio 2012"に名称変更されて、リリース候補版が.NET 4.5とともに提供されている
+Microsoft のブランチ・マージ作業ガイドライン
+No comments
+スレッド表示 返信
+特集コンテンツ一覧
+All
+Articles
+Presentation
+Interview
+Minibook
+無料で使えるWindows Azure Webサイトはどこまで活用できるか
+前回は、Windows Azure Webサイトの構成変更やログ出力設定、モードやスケールの変更方法について紹介した。最終回となる今回は、「無料モード」でWebサイトを活用する際の注意事項をまとめる。また、簡単なアクセステストを行って、実際にどの程度の利用に耐え得るのかを検証してみたい。 照山 聖岳 - (株)ネクストスケープ 2012年12月27日 午前3時39分 ,  	 1
+【QCon Tokyo 2012】 Business/Technical case Study Bryan Cantrill 氏
+講演タイトル： Real-time node.js: 検証手法、可視化手法、デバック手法 InfoQ Japan 編集部 2012年12月17日 午後9時55分
+
+
+PR
+【QCon Tokyo 2012】 Business/Technical case Study Robert Johnson 氏
+ソーシャルサイトへの各ページビューやAPIコールは、グラフに対するビューということになります。グラフの構造はリアルタイムのインタラクションを求めて増大するユーザの欲求に伴って常に変化していきます。データのもつこうした性質は、新たな技術的チャレンジを必要とし、新たなアーキテクチャを導きます。こうしたアーキテクチャがどのように機能するのか解説するとともに、その設計の背後にある一般原則について説明します InfoQ Japan 編集部 2012年12月17日 午後9時44分
+オープンソースCMS DotNetNuke 7.0 リリース
+2012年11月28日に DotNetNuke 7.0 がリリースされた。世界中の70万サイト以上で利用されているオープンソースの CMS (Contents Management System) である DotNetNuke の変更点について紹介する。 高嶋 健人 2012年12月9日 午後7時53分
+hifive: 国産のWebクライアント開発フレームワーク
+hifiveは、HTML5で記述されたWebクライアント開発向けオープンソースフレームワークである。Backbone.jsやKnockout等最近多く出てきているJavaScript向けMV*フレームワークの一種であり、コードにMVC型の構造を与え、多人数で並列開発を行う際の記述の統一・ビュー/ロジックの分離・メンテナンス性の向上などを可能にする。 下田　修 2012年12月9日 午後7時28分
+【QCon Tokyo 2012】 Business/Technical case Study 玉川 憲 氏
+AWSクラウドデザインパターン (AWS Cloud Design Pattern, 略してCDP)とは、AWSクラウドを用いたシステムアーキテクチャ設計を行う際に発生する、典型的な問題とそれに対する解決策・設計方法を、分かりやすく分類し、ノウハウとして整理したものである。本セッションでは、CDP概要と、典型的な実装シナリオを解説する。 InfoQ Japan 編集部 2012年12月7日 午前12時22分
+【QCon Tokyo 2012】 Business/Technical case Study Alex Papadimoulis 氏
+なぜ醜いコードが存在するのか、コード��醜くなるのを防ぐにはどうしたらいいか、そして 自分のコードから醜いコードを除去する方法はあるのか、について、皆さんと一緒に考えたいと思っています。 もちろん、私が日々気がついた「いけていない」コードサンプルについても皆さんと共有したいと考えていますのでお楽しみに。 InfoQ Japan 編集部 2012年11月28日 午後10時47分
+アジャイルチームをメトリクスで破壊しない方法
+アジャイルコミュニティは、アジャイルチームの成功を測る方法を変える必要があります。メトリクスを定め、その結果から情報を得る方法は、実際にはもっとも大切なことを妨げています。 Sean McHugh 2012年11月27日 午後11時54分
+次へ >
+デベロップメント
+
+Team Explorer Everywhere Update 1は、パブリックワークスペースをサポートする
+SAPのOSGiベースJava PaaSがJava Enterprise Edition 6 Web Profile Compatibilityを取得
+GE EnergyはInvokeDynamicを使ってMagikをJVMへ移植
+無料で使えるWindows Azure Webサイトはどこまで活用できるか
+AmazonがSimple Workflow Serviceレシピを公開
+設計/アーキテクチャ
+
+GE EnergyはInvokeDynamicを使ってMagikをJVMへ移植
+AmazonがSimple Workflow Serviceレシピを公開
+Apache AmbariでHadoopを管理
+JAX-RS 2.0とBean Validation 1.1がJava EE 7 JSRとして初の公認を受ける
+Fastbook: SenchaによるHTML5が”使える”技術であることの証明
+プロセス/プラクティス
+
+アジャイルのための文化変革
+"アジャイルコーチ" とは何か
+Agile 2013 Conferenceの応募が公開
+jClarityがJavaパフォーマンスチューニングを容易にする新ツールを提供
+【QCon Tokyo 2012】 Business/Technical case Study Bryan Cantrill 氏
+運用/インフラ
+
+Googleのサービス変更によるWindows 8のトラブル
+Apache AmbariでHadoopを管理
+CouchbaseがCouchbase Server 2.0 GAをリリース
+jClarityがJavaパフォーマンスチューニングを容易にする新ツールを提供
+【QCon Tokyo 2012】 Business/Technical case Study Bryan Cantrill 氏
+エンタープライズ・アーキテクチャ
+
+アジャイルのための文化変革
+JAX-RS 2.0とBean Validation 1.1がJava EE 7 JSRとして初の公認を受ける
+jClarityがJavaパフォーマンスチューニングを容易にする新ツールを提供
+【QCon Tokyo 2012】 Business/Technical case Study Bryan Cantrill 氏
+【QCon Tokyo 2012】 Business/Technical case Study Robert Johnson 氏
+ホーム
+すべてのトピック
+InfoQについて
+QCon Conferences
+Create account
+ログイン
+ニュースを投稿
+興味に合わせてカスタマイズする
+
+デベロップメント
+設計/アーキテクチャ
+プロセス/プラクティス
+運用/インフラ
+エンタープライズ・アーキテクチャ
+FOLLOW US
+
+InfoQ ニュースレター
+InfoQのコンテンツをフォローするには、ニュースレターを購読してください。
+
+RSS パーソナライズ
+Twitter公式アカウント
+InfoQ Facebook ページ
+最新情報、トレンド、データ
+サイト全般について
+feedback@infoq.com
+バグ
+bugs@infoq.com
+広告
+infoqsec@peak-1.co.jp
+記事
+infoqsec@peak-1.co.jp
+Twitter
+http://twitter.com/InfoQJapan
+InfoQ Japan and all content copyright © 2012 C4Media Inc. & Component Square, Inc. InfoQ Japan hosted at Contegix, the best ISP we've ever worked with.
+Privacy policy
